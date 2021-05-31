@@ -1,0 +1,6 @@
+{
+    "prefix": "-",
+    "test_room": "mooliobot",
+    "ignoreCommonBots": true,
+    "commonBots": ["streamelements", "nightbot", "supibot", "streamlabs", "moobot", "fossabot"]
+}

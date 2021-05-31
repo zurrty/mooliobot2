@@ -1,0 +1,19 @@
+{
+  "name": "mooliobot-2",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "zurrty",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {"url": "https://github.com/zurrty/mooliobot"},
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "tmi.js": "^1.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@types/tmi.js": "^1.7.1"
+  }
+}
