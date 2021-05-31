@@ -1,1 +1,3 @@
 client/client-login.json
+node_modules
+yarn-error.log
