@@ -6,7 +6,7 @@ const { loadCommands } = require("./commands");
 const { readFileSync, existsSync } = require("fs");
 console.log(join(__dirname,"../client/options.json"))
 const BOT_CONFIG = new UncachedModule(join(__dirname,"../client/options.json"))
-
+let chat_bot = null 
 function IsCommonBot(channel) {
     BOT_CONFIG.commonBots.forEach(b => {
         if ("#"+b == channel.toLowerCase()) {
@@ -62,6 +62,9 @@ class ChatBot {
                 if(cmd != null && cmd.func != null) {
                     cmd.func(chan,state,msg.substring(splitMsg[0].length).trim()).then(res => {
                         this.SendMessage(chan, res)
+                    }).catch(err => {
+                        console.log(err)
+                        this.SendMessage(chan, `@${state["display-name"]}, sorry i fucked up on that one. tell zurrty to fix his broke ass bot.`)
                     })
                 }
             }
@@ -77,6 +80,7 @@ function Main() {
         return val.replace("#","")
     })
     console.log(opts)
-    module.exports.chat_bot = new ChatBot(opts)
+    chat_bot = new ChatBot(opts)
+    module.exports.chat_bot = chat_bot
 }
 Main()
