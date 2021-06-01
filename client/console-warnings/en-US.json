@@ -1,0 +1,27 @@
+{
+    "loginFailed": [
+        "[FATAL BOT ERROR]",
+        "--------------------",
+        "Login authentication failed! Please double check your credentials in ../client/client-login.json (\"../\" means the directory that contains the folder that this file is in)",
+        "This may mean that your token has expired. This happens after about 6 or so months for most tokens.",
+        "--------------------",
+        "The process has been terminated.",
+        "--------------------"
+    ],
+    "noLoginCredentials": [
+        "Please open the newly generated file located at \"../client/client-login.json\" and input your bot login data",
+        "To get an oauth token, go to https://twitchapps.com/tmi/ and login with your bot account.",
+        "Copy and paste the entire code into the \"password\" section.",
+        "The file should now look something like this:",
+        "{",
+        "   \"identity\": {",
+        "       \"username\": \"mooliobot\",",
+        "       \"password\": \"oauth:1234567890qwertyuiop\"",
+        "   }",
+        "}",
+        "Note: NEVER publicly share your oauth password. The one above is (obviously) not a real oauth code.",
+        "If your code somehow does get leaked, go to https://www.twitch.tv/settings/connections on your bot account, scroll down to Other Connections, and disconnect Twitch Chat OAuth Token Generator.",
+        "After that, you can regenerate your OAuth token.",
+        "--------------------"
+    ]
+}

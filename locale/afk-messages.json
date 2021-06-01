@@ -1,0 +1,27 @@
+{
+    "poop": [
+        "{user} layed a log. {msg} [ {time} ]",
+        "{user} is back from the shitter. {msg} [ {time} ]",
+        "{user} shit their pants lmao idiot. {msg} [ {time} ]",
+        "{user} didn't wipe. kinda weird... {msg} [ {time} ]"
+    ],
+    "pee": [
+        "{user} pissed themself. {msg} [ {time} ]",
+        "{user} just spilled water on their pants ok they didnt piss themself. {msg} [ {time} ]"
+    ],
+    "food": [
+        "{user} just ate some ASS. FUCK YEAH!!! {msg} [ {time} ]",
+        "{user} mcdonald. {msg} [ {time} ]",
+        "{user} mmmm. {msg} [ {time} ]"
+    ],
+    "sleep": [
+        "{user} just woke up. {msg} [ {time} ]",
+        "{user} has risen from the sleeping area. {msg} [ {time} ]",
+        "{user} didnt actually sleep at all. fucking liar! {msg} [ {time} ]"
+    ],
+    "afk": [
+        "{user} just got back. {msg} [ {time} ]",
+        "{user} has returned. {msg} [ {time} ]",
+        "{user} is here. pack it up everyone, party's over. {msg} [ {time} ]"
+    ]
+}

@@ -1,6 +1,7 @@
 module.exports = {
     perms: 0, // 0 = anyone can use
     aliases: ["commands"],
+    description: "what do you think it does",
     name: "help",
     /**
      * @param {string} cChan

@@ -5,12 +5,14 @@ _The prefix for all mooliobot commands is `-`_
 ## Bot commands
 Command title | Aliases | Description | Permissions
 --------------|---------|-------------|------------
-help|commands|what do you think|0
-peepo|ptwt|Something that a peepo twitter regular would say|0
-insult|roast, ahole|tells the user to shut up or somethin|0
-ping|test,areyoualive|lets you know if the bot is up|0
-rkq|kramer, kramerquote, randomkramer|kramer seinfeld|0
-admin|no aliases|super secret extra special things that only i can do|6
+admin|mad,mod|commands for admins.|0
+afk|bye,ppPoof,shit,poop,piss,pee,eat,dinner,breakfast,lunch,gn,sleep,bed,bedtime,school,study,work|leave. go away.|0
+peepo|ptwt|generates a peepo twitter tweet|0
+help|commands|what do you think it does|0
+insult|ass,roast|calls you or another user a mean name!! not nice!!|0
+mooliodrops|moolio|moolio. cars go vroom vroom bang bang.|0
+ping|test,areyoualive|just a test command nothing special|0
+rkq|kramerquote,kramer,randomkramer|a random quote from kramer|0
 
 ## Permissions
 

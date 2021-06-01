@@ -12,6 +12,11 @@
   resolved "https://registry.yarnpkg.com/@types/tmi.js/-/tmi.js-1.7.1.tgz#d45b1eb2506fa7e0e173cd3a1317c018f9ee7d1a"
   integrity sha512-sZ/4WlCFSKIp6sPwRMpBlSvARXMaBzIQuxLQL4v+Ymga3LiH+Xw6WuPN5odkNWDmjPVoLqSwEuCCVsFjM4c7Ug==
 
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
 node-fetch@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz"

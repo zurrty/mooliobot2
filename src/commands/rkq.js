@@ -4,6 +4,7 @@ module.exports = {
     perms: 0, // 0 = anyone can use
     aliases: ["kramerquote","kramer","randomkramer"],
     name: "rkq",
+    description: "a random quote from kramer",
     /**
      * @param {string} cChan
      * @param {import("tmi.js").ChatUserstate} cState

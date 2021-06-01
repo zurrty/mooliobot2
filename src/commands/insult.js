@@ -2,8 +2,9 @@ const { randomInt } = require("crypto")
 
 module.exports = {
     perms: 0, // 0 = anyone can use
-    aliases: ["ahole","roast"],
+    aliases: ["ass","roast"],
     name: "insult",
+    description: "calls you or another user a mean name!! not nice!!",
     insults:[
         "@{user} grow up.",
         "@{user} smells like sawdust.",

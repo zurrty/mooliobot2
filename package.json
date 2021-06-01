@@ -6,9 +6,11 @@
   "license": "MIT",
   "type": "commonjs",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "commands": "node . -commands"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "tmi.js": "^1.8.3"
   },
   "devDependencies": {

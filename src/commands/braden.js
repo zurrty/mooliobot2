@@ -3,6 +3,7 @@ const { randomInt } = require("crypto")
 module.exports = {
     aliases: ["ptwt"],
     name: "peepo",
+    description: "generates a peepo twitter tweet",
     perms: 0, // 0 = anyone can use
     opts: {puncCount:8,puncFrequency:3,words:[
         "wow",
@@ -25,7 +26,7 @@ module.exports = {
         "simply",
         "simpmom",
         "poki",
-        "matthew hug",
+        "hug",
         "@REALMizkif",
         "matthew",
         "good peepo",
